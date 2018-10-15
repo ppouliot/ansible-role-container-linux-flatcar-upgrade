@@ -28,7 +28,7 @@ Here is an example of typical usage.
 - hosts: localhost
   gather_facts: True
   roles:
-    - container-linux-azure
+    - container-linux-flatcar-upgrade
 ```
 
 ## Contributors
