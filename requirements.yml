@@ -1,0 +1,8 @@
+- name: container-linux-azure
+  src: ppouliot.container-linux-azure
+
+- name: container-linux-bootstrap
+  src: ppouliot.container-linux-bootstrap
+
+- name: container-linux-flatcar-upgrade
+  src: ppouliot.container-linux-flatcar-upgrade
