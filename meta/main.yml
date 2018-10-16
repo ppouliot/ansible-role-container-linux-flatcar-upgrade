@@ -10,5 +10,9 @@ galaxy_info:
   galaxy_tags:
     - coreos
     - azure
+  platforms:
+    - name: CoreOS
+      versions:
+        - all
 dependencies:
   - role: ppouliot.container_linux_bootstrap
