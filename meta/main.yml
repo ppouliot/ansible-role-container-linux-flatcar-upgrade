@@ -1,3 +1,4 @@
+---
 galaxy_info:
   role_name: container-linux-flatcar-upgrade
   author: ppouliot
@@ -6,8 +7,8 @@ galaxy_info:
     - Apache
   version: 0.0.1
   min_ansible_version: 2.4
-  dependencies:
-    - role: ppouliot.container_linux_bootstrap
   galaxy_tags:
     - coreos
     - azure
+dependencies:
+  - role: ppouliot.container_linux_bootstrap
