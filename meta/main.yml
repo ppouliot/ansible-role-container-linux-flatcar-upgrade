@@ -15,4 +15,4 @@ galaxy_info:
       versions:
         - all
 dependencies:
-  - role: ppouliot.container_linux_bootstrap
+  - role: ppouliot.ansible_bootstrap
