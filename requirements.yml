@@ -1,3 +1,4 @@
+---
 - name: container-linux-azure
   src: ppouliot.container-linux-azure
 

@@ -2,4 +2,4 @@
 ---
 - name: Run upgrade script
   script: ../files/coreos_upgrade_to_flatcar_linux.sh  creates=/home/core/console.txt
-  sudo: yes
+  sudo: true

@@ -4,16 +4,16 @@
   copy:
     src: /usr/share/coreos/release
     dest: /tmp/release
-    remote_src: yes
-  sudo: yes
+    remote_src: true
+  sudo: true
 
 - name: Clearing the current version number from the release file
   lineinfile:
     path: /tmp/release
     regexp: '/COREOS_RELEASE_VERSION'
     line: 'COREOS_RELEASE_VERSION=0.0.0'
-  sudo: yes
+  sudo: true
 
 - name: Mount the release file from /tmp/release to /usr/share/coreos/release
   command: "mount --bind /tmp/release /usr/share/coreos/release"
-  sudo: yes
+  sudo: true

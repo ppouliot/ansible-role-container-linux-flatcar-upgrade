@@ -2,4 +2,4 @@
 ---
 - name: Run manual upgrade using 'update_engine_client -update'
   command: "update_engine_client -update"
-  sudo: yes
+  sudo: true
